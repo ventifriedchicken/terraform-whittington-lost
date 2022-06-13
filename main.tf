@@ -15,7 +15,7 @@ provider "aws" {
 
 # t2 tiny like whittingtons patience
 resource "aws_instance" "app_server" {
-  ami           = "ami-830c94e3"
+  ami           = "ami-0022f774911c1d690"
   instance_type = "t2.micro"
 
   tags = {
